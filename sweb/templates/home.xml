@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para>{% extends 'base.xml' %}&#13;</para>
+  <para>{% block title %} HOME-GRASSHILLFOOTBALLCLUB {% endblock %}&#13;</para>
+  <para>&#13;</para>
+  <para>{% load static %}&#13;</para>
+  <para>&#13;</para>
+  <para>{% block content %}&#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start Banner --&gt;&#13;</para>
+  <para>        &lt;div class="banner-outer"&gt;&#13;</para>
+  <para>            &lt;span class="banner-shadow"&gt;&lt;/span&gt;&#13;</para>
+  <para>            &lt;div class="banner-image"&gt;&#13;</para>
+  <para>                &lt;div class="container"&gt;&#13;</para>
+  <para>                    &lt;div class="content" data-aos="fade-right"&gt;&#13;</para>
+  <para>                        &lt;h1&gt;GRASS HILL FOOTBALL CLUB&lt;/h1&gt;&#13;</para>
+  <para>                        &lt;h2&gt;GAME, GRIND &amp; GOAL &lt;/h2&gt;&#13;</para>
+  <para>                        &lt;p&gt;&lt;/p&gt;&#13;</para>
+  <para>                        &lt;a href="contact.xml" class="btn"&gt;JOIN WITH US&lt;/a&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End Banner --&gt;&#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start building --&gt;&#13;</para>
+  <para>        &lt;div class="building-outer"&gt;&#13;</para>
+  <para>            &lt;div class="container"&gt;&#13;</para>
+  <para>                &lt;div class="building-list"&gt;&#13;</para>
+  <para>                    &lt;div class="row"&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-4 col-xs-12"&gt;&#13;</para>
+  <para>                            &lt;div class="building-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/build1.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;GOAL KEEPER&lt;/h4&gt;&#13;</para>
+  <para>                                &lt;p&gt;Lorem ipsum dolor sit amet, ei veritus consetetur repudiandae eam, duo ne homero nostro moderatius.&lt;/p&gt;&#13;</para>
+  <para>                                &lt;a href="classes-detail.xml" class="btn"&gt;View Detail&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-4 col-xs-12"&gt;&#13;</para>
+  <para>                            &lt;div class="building-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/build2.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;DEFENSE, MIDFIELD&lt;/h4&gt;&#13;</para>
+  <para>                                &lt;p&gt;Lorem ipsum dolor sit amet, ei veritus consetetur repudiandae eam, duo ne homero nostro moderatius.&lt;/p&gt;&#13;</para>
+  <para>                                &lt;a href="classes-detail.xml" class="btn"&gt;View Detail&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-4 col-xs-12"&gt;&#13;</para>
+  <para>                            &lt;div class="building-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/build3.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;ATTACK&lt;/h4&gt;&#13;</para>
+  <para>                                &lt;p&gt;Lorem ipsum dolor sit amet, ei veritus consetetur repudiandae eam, duo ne homero nostro moderatius.&lt;/p&gt;&#13;</para>
+  <para>                                &lt;a href="classes-detail.xml" class="btn"&gt;View Detail&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End building sec --&gt; &#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start Feature Classes --&gt;&#13;</para>
+  <para>        &lt;div class="feature-outer"&gt;&#13;</para>
+  <para>            &lt;div class="container"&gt;&#13;</para>
+  <para>                &lt;div class="head border"&gt;&#13;</para>
+  <para>                    &lt;h3&gt;&lt;span&gt;FEATURED CLASSES&lt;/span&gt;&lt;/h3&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>                &lt;div class="feature-list"&gt;&#13;</para>
+  <para>                    &lt;div class="feature-slider owl-carousel"&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="feature-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&#13;</para>
+  <para>                                    &lt;img src="{% static 'sweb/images/feature-thumb1.png' %}" alt=""&gt;&#13;</para>
+  <para>                                    &lt;div class="time-box"&gt;&#13;</para>
+  <para>                                        &lt;span class="date"&gt;&lt;span&gt;16 DEC&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                        &lt;span class="time"&gt;&lt;span&gt;6:30 AM&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;&lt;a href="classes-detail.xml"&gt;Weight Lifting&lt;/a&gt;&lt;/h4&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="feature-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&#13;</para>
+  <para>                                    &lt;img src="{% static 'sweb/images/feature-thumb2.png' %}" alt=""&gt;&#13;</para>
+  <para>                                    &lt;div class="time-box"&gt;&#13;</para>
+  <para>                                        &lt;span class="date"&gt;&lt;span&gt;16 DEC&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                        &lt;span class="time"&gt;&lt;span&gt;6:30 AM&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;&lt;a href="classes-detail.xml"&gt;Daily Yoga&lt;/a&gt;&lt;/h4&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="feature-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&#13;</para>
+  <para>                                    &lt;img src="{% static 'sweb/images/feature-thumb3.png' %}" alt=""&gt;&#13;</para>
+  <para>                                    &lt;div class="time-box"&gt;&#13;</para>
+  <para>                                        &lt;span class="date"&gt;&lt;span&gt;16 DEC&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                        &lt;span class="time"&gt;&lt;span&gt;6:30 AM&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;&lt;a href="classes-detail.xml"&gt;Running Way&lt;/a&gt;&lt;/h4&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="feature-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&#13;</para>
+  <para>                                    &lt;img src="{% static 'sweb/images/feature-thumb1.png' %}" alt=""&gt;&#13;</para>
+  <para>                                    &lt;div class="time-box"&gt;&#13;</para>
+  <para>                                        &lt;span class="date"&gt;&lt;span&gt;16 DEC&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                        &lt;span class="time"&gt;&lt;span&gt;6:30 AM&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;&lt;a href="classes-detail.xml"&gt;Weight Lifting&lt;/a&gt;&lt;/h4&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="feature-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&#13;</para>
+  <para>                                    &lt;img src="{% static 'sweb/images/feature-thumb2.png' %}" alt=""&gt;&#13;</para>
+  <para>                                    &lt;div class="time-box"&gt;&#13;</para>
+  <para>                                        &lt;span class="date"&gt;&lt;span&gt;16 DEC&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                        &lt;span class="time"&gt;&lt;span&gt;6:30 AM&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;&lt;a href="classes-detail.xml"&gt;Daily Yoga&lt;/a&gt;&lt;/h4&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="feature-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&#13;</para>
+  <para>                                    &lt;img src="{% static 'sweb/images/feature-thumb3.png' %}" alt=""&gt;&#13;</para>
+  <para>                                    &lt;div class="time-box"&gt;&#13;</para>
+  <para>                                        &lt;span class="date"&gt;&lt;span&gt;16 DEC&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                        &lt;span class="time"&gt;&lt;span&gt;6:30 AM&lt;/span&gt;&lt;/span&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;&lt;a href="classes-detail.xml"&gt;Running Way&lt;/a&gt;&lt;/h4&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End Feature sec --&gt;&#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start Muscle Sec --&gt;&#13;</para>
+  <para>        &lt;div class="muscle-outer"&gt;&#13;</para>
+  <para>            &lt;figure&gt;&lt;img src="{% static 'sweb/images/mucle-img.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>            &lt;div class="muscle-para"&gt;&#13;</para>
+  <para>                    &lt;div class="outer"&gt;&#13;</para>
+  <para>                    &lt;h3&gt;MUSCLE BUILDING&lt;/h3&gt;&#13;</para>
+  <para>                    &lt;h4&gt;12-Week Bulking Trainer Expert Brandon Poe&lt;/h4&gt;&#13;</para>
+  <para>                    &lt;a href="contact.xml" class="btn"&gt;JOIN WITH US&lt;/a&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End Muscle sec --&gt;&#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start CLASS SCHEDULE sec --&gt;&#13;</para>
+  <para>        &lt;div class="classSch-outer"&gt;&#13;</para>
+  <para>            &lt;div class="container"&gt;&#13;</para>
+  <para>                &lt;div class="head"&gt;&#13;</para>
+  <para>                    &lt;h3&gt;CLASS SCHEDULE&lt;/h3&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>                &lt;ul class="tabs"&gt;&#13;</para>
+  <para>                    &lt;li class="active"&gt;&lt;a href="#mon"&gt;Monday&lt;/a&gt;&lt;/li&gt;&#13;</para>
+  <para>                    &lt;li&gt;&lt;a href="#tus"&gt;Tuesday&lt;/a&gt;&lt;/li&gt;&#13;</para>
+  <para>                    &lt;li&gt;&lt;a href="#wed"&gt;Wednesday&lt;/a&gt;&lt;/li&gt;&#13;</para>
+  <para>                    &lt;li&gt;&lt;a href="#thrus"&gt;Thursday&lt;/a&gt;&lt;/li&gt;&#13;</para>
+  <para>                    &lt;li&gt;&lt;a href="#friday"&gt;Friday&lt;/a&gt;&lt;/li&gt;&#13;</para>
+  <para>                    &lt;li&gt;&lt;a href="#sat"&gt;Saturday&lt;/a&gt;&lt;/li&gt;&#13;</para>
+  <para>                    &lt;li&gt;&lt;a href="#sun"&gt;Sunday&lt;/a&gt;&lt;/li&gt;&#13;</para>
+  <para>                &lt;/ul&gt;&#13;</para>
+  <para>                &lt;div class="table-outer"&gt;&#13;</para>
+  <para>                    &lt;table class="table tab_container" id="mon"&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Yoga&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Robert Smith&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Running&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Lina John&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Gym&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Michale Rose&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Free Hand&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Robin Disuza&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Yoga&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Mark Jinsed&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Weight Lifting&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Michal Khurp&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                    &lt;/table&gt;&#13;</para>
+  <para>                    &lt;table class="table tab_container" id="tus"&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Yoga&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Robert Smith&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Running&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Lina John&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Gym&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Michale Rose&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                    &lt;/table&gt;&#13;</para>
+  <para>                    &lt;table class="table tab_container" id="wed"&gt;&#13;</para>
+  <para>                            &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Weight Lifting&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Michal Khurp&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Yoga&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Robert Smith&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Running&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Lina John&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Gym&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Michale Rose&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                    &lt;/table&gt;&#13;</para>
+  <para>                    &lt;table class="table tab_container" id="thrus"&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Running&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Lina John&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Gym&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Michale Rose&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                    &lt;/table&gt;&#13;</para>
+  <para>                    &lt;table class="table tab_container" id="friday"&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Yoga&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Robert Smith&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Running&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Lina John&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Yoga&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Mark Jinsed&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Weight Lifting&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Michal Khurp&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                    &lt;/table&gt;&#13;</para>
+  <para>                    &lt;table class="table tab_container" id="sat"&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Running&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Lina John&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Yoga&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Mark Jinsed&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Weight Lifting&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Michal Khurp&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                    &lt;/table&gt;&#13;</para>
+  <para>                    &lt;table class="table tab_container" id="sun"&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Yoga&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;10.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Robert Smith&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Running&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Lina John&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                        &lt;tr&gt;&#13;</para>
+  <para>                            &lt;td&gt;Weight Lifting&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;09.00 am - 12.00 pm&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;Michal Khurp&lt;/td&gt;&#13;</para>
+  <para>                            &lt;td&gt;&lt;a href="contact.xml" class="btn"&gt;Join Now&lt;/a&gt;&lt;/td&gt;&#13;</para>
+  <para>                        &lt;/tr&gt;&#13;</para>
+  <para>                    &lt;/table&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End CLASS SCHEDULE sec --&gt;&#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start Trainers sec --&gt;&#13;</para>
+  <para>        &lt;div class="trainers-outer"&gt;&#13;</para>
+  <para>            &lt;div class="container"&gt;&#13;</para>
+  <para>                &lt;div class="head border"&gt;&#13;</para>
+  <para>                    &lt;h3&gt;&lt;span&gt;EXPERT TRAINERS&lt;/span&gt;&lt;/h3&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>                &lt;div class="trainers-list"&gt;&#13;</para>
+  <para>                    &lt;div class="trainers-slider owl-carousel"&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="trainers-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/trainer1.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;span&gt;Justin Hessen&lt;/span&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="trainers-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/trainer2.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;span&gt;Romia Rose&lt;/span&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="trainers-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/trainer3.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;span&gt;Simron Wigs&lt;/span&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="trainers-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/trainer4.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;span&gt;John Smile&lt;/span&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="trainers-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/trainer1.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;span&gt;Justin Hessen&lt;/span&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="trainers-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/trainer2.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;span&gt;Romia Rose&lt;/span&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="trainers-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/trainer3.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;span&gt;Simron Wigs&lt;/span&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="item"&gt;&#13;</para>
+  <para>                            &lt;div class="trainers-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/trainer4.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;span&gt;John Smile&lt;/span&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End Trainers sec --&gt;&#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start Gallery sec --&gt;&#13;</para>
+  <para>        &lt;div class="gallery-outer"&gt;&#13;</para>
+  <para>            &lt;div class="container"&gt;&#13;</para>
+  <para>                &lt;div class="head"&gt;&#13;</para>
+  <para>                    &lt;h3&gt;Our Gallery&lt;/h3&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>                &lt;ul class="tabs"&gt;&#13;</para>
+  <para>                    &lt;li class="active"&gt;&lt;span data-filter="*"&gt;All&lt;/span&gt;&lt;/li&gt;&#13;</para>
+  <para>                    &lt;li&gt;&lt;span data-filter=".yoga"&gt;Yoga&lt;/span&gt;&lt;/li&gt;&#13;</para>
+  <para>                    &lt;li&gt;&lt;span data-filter=".running"&gt;Running&lt;/span&gt;&lt;/li&gt;&#13;</para>
+  <para>                    &lt;li&gt;&lt;span data-filter=".gym"&gt;Gym&lt;/span&gt;&lt;/li&gt;&#13;</para>
+  <para>                    &lt;li&gt;&lt;span data-filter=".fitness"&gt;Fitness&lt;/span&gt;&lt;/li&gt;&#13;</para>
+  <para>                &lt;/ul&gt;&#13;</para>
+  <para>                &lt;div class="gallery-list"&gt;&#13;</para>
+  <para>                    &lt;div class="row grid"&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item yoga"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery1.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery1.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item running"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery2.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery2.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item gym"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery3.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery3.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item fitness"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery4.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery4.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item yoga"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery5.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery5.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item gym"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery6.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery6.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item running"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery7.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery7.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item fitness"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery8.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery8.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item gym"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery9.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery9.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item runnung"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery10.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery10.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item gym"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery11.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery11.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-3 col-xs-12 element-item fitness"&gt;&#13;</para>
+  <para>                            &lt;div class="gallery-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/gallery12.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;a href="{% static 'sweb/images/gallery12.png' %}" class="gallery-overlay"&gt;&lt;i class="fa fa-search-plus"&gt;&lt;/i&gt;&lt;/a&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End Gallery sec --&gt; &#13;</para>
+  <para>        &lt;!-- Start Counter sec --&gt;&#13;</para>
+  <para>        &lt;div class="counter-outer"&gt;&#13;</para>
+  <para>            &lt;div class="container"&gt;&#13;</para>
+  <para>                &lt;div class="row"&gt;&#13;</para>
+  <para>                    &lt;div class="col-sm-3 col-xs-12"&gt;&#13;</para>
+  <para>                        &lt;div class="counter-box"&gt;&#13;</para>
+  <para>                            &lt;figure&gt;&lt;img src="{% static 'sweb/images/counter1.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                            &lt;strong class="counter"&gt;25&lt;/strong&gt;&#13;</para>
+  <para>                            &lt;small&gt;Trainers&lt;/small&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                    &lt;div class="col-sm-3 col-xs-12"&gt;&#13;</para>
+  <para>                        &lt;div class="counter-box"&gt;&#13;</para>
+  <para>                            &lt;figure&gt;&lt;img src="{% static 'sweb/images/counter2.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                            &lt;strong class="counter"&gt;2500&lt;/strong&gt;&#13;</para>
+  <para>                            &lt;small&gt;Satisfied Customers&lt;/small&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                    &lt;div class="col-sm-3 col-xs-12"&gt;&#13;</para>
+  <para>                        &lt;div class="counter-box"&gt;&#13;</para>
+  <para>                            &lt;figure&gt;&lt;img src="{% static 'sweb/images/counter3.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                            &lt;strong class="counter"&gt;199&lt;/strong&gt;&#13;</para>
+  <para>                            &lt;small&gt;Received Awards&lt;/small&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                    &lt;div class="col-sm-3 col-xs-12"&gt;&#13;</para>
+  <para>                        &lt;div class="counter-box"&gt;&#13;</para>
+  <para>                            &lt;figure&gt;&lt;img src="{% static 'sweb/images/counter4.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                            &lt;strong class="counter"&gt;250&lt;/strong&gt;&#13;</para>
+  <para>                            &lt;small&gt;Equipments&lt;/small&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End Counter sec --&gt; &#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start News sec --&gt;&#13;</para>
+  <para>        &lt;div class="news-outer"&gt;&#13;</para>
+  <para>            &lt;div class="container"&gt;&#13;</para>
+  <para>                &lt;div class="head"&gt;&#13;</para>
+  <para>                    &lt;h3&gt;LATEST NEWS&lt;/h3&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>                &lt;div class="news-list"&gt;&#13;</para>
+  <para>                    &lt;div class="row"&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-4 col-xs-12"&gt;&#13;</para>
+  <para>                            &lt;div class="news-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/news-img1.png' %}" alt=""&gt;&#13;</para>
+  <para>                                    &lt;div class="date-box"&gt;&#13;</para>
+  <para>                                        &lt;span&gt;JAN&lt;/span&gt;&#13;</para>
+  <para>                                        &lt;strong&gt;20&lt;/strong&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;Lorem ipsum dolor sit amet&lt;/h4&gt;&#13;</para>
+  <para>                                &lt;p&gt;Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur, at ullamcorper neque maximus. &lt;a href="newsdetail.xml"&gt;Read More...&lt;/a&gt;&lt;/p&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-4 col-xs-12"&gt;&#13;</para>
+  <para>                            &lt;div class="news-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&#13;</para>
+  <para>                                    &lt;img src="{% static 'sweb/images/news-img2.png' %}" alt=""&gt;&#13;</para>
+  <para>                                    &lt;div class="date-box"&gt;&#13;</para>
+  <para>                                        &lt;span&gt;JAN&lt;/span&gt;&#13;</para>
+  <para>                                        &lt;strong&gt;20&lt;/strong&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;Pellentesque pellentesque&lt;/h4&gt;&#13;</para>
+  <para>                                &lt;p&gt;Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur, at ullamcorper neque maximus. &lt;a href="newsdetail.xml"&gt;Read More...&lt;/a&gt;&lt;/p&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-4 col-xs-12"&gt;&#13;</para>
+  <para>                            &lt;div class="news-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&#13;</para>
+  <para>                                    &lt;img src="{% static 'sweb/images/news-img3.png' %}" alt=""&gt;&#13;</para>
+  <para>                                    &lt;div class="date-box"&gt;&#13;</para>
+  <para>                                        &lt;span&gt;JAN&lt;/span&gt;&#13;</para>
+  <para>                                        &lt;strong&gt;20&lt;/strong&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/figure&gt;&#13;</para>
+  <para>                                &lt;h4&gt;Curabitur et scelerisque dui&lt;/h4&gt;&#13;</para>
+  <para>                                &lt;p&gt;Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur, at ullamcorper neque maximus. &lt;a href="newsdetail.xml"&gt;Read More...&lt;/a&gt;&lt;/p&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End News sec --&gt; &#13;</para>
+  <para>&#13;</para>
+  <para>&#13;</para>
+  <para>&#13;</para>
+  <para>{% endblock %}</para>
+</article>

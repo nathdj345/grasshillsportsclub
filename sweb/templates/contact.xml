@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para>{% extends 'base.xml' %}&#13;</para>
+  <para>{% block title %} CONTACT-GRASSHILLFOOTBALLCLUB {% endblock %}&#13;</para>
+  <para>&#13;</para>
+  <para>{% load static %}&#13;</para>
+  <para>&#13;</para>
+  <para>{% block content %}&#13;</para>
+  <para>&#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start Banner --&gt;&#13;</para>
+  <para>        &lt;div class="banner-outer inner-banner contact-banner"&gt;&#13;</para>
+  <para>            &lt;span class="banner-shadow"&gt;&lt;/span&gt;&#13;</para>
+  <para>            &lt;div class="container"&gt;&#13;</para>
+  <para>                &lt;div class="content" data-aos="fade-down"&gt;&#13;</para>
+  <para>                    &lt;h1&gt;CONTACT US&lt;/h1&gt;&#13;</para>
+  <para>                    &lt;div class="breadcrumbs_outer"&gt;&#13;</para>
+  <para>                        &lt;div class="container"&gt;&#13;</para>
+  <para>                            &lt;ul class="breadcrumbs"&gt;&#13;</para>
+  <para>                                &lt;li&gt;&lt;a href="home.xml"&gt;Home&lt;/a&gt;&lt;/li&gt;&#13;</para>
+  <para>                                &lt;li&gt;Contact&lt;/li&gt;&#13;</para>
+  <para>                            &lt;/ul&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End Banner --&gt;&#13;</para>
+  <para>&#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start Cal Info --&gt;&#13;</para>
+  <para>        &lt;div class="cal-info-outer"&gt;&#13;</para>
+  <para>            &lt;div class="container"&gt;&#13;</para>
+  <para>                &lt;div class="cal-info-list"&gt;&#13;</para>
+  <para>                    &lt;div class="row"&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-4 col-xs-12"&gt;&#13;</para>
+  <para>                            &lt;div class="cal-info-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/contact-cal.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;p&gt;Sainjali, Umrangso-788931, ASSAM&lt;/p&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-4 col-xs-12"&gt;&#13;</para>
+  <para>                            &lt;div class="cal-info-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/contact-location.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;p&gt;&#13;</para>
+  <para>                                    &lt;a href="tel:+1-123-456-4785"&gt;(+1) 123 456 4785&lt;/a&gt;&lt;br/&gt;&#13;</para>
+  <para>                                    &lt;a href="tel:+1-123-456-4785"&gt;(+1) 123 456 9857&lt;/a&gt;&#13;</para>
+  <para>                                &lt;/p&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                        &lt;div class="col-sm-4 col-xs-12"&gt;&#13;</para>
+  <para>                            &lt;div class="cal-info-box"&gt;&#13;</para>
+  <para>                                &lt;figure&gt;&lt;img src="{% static 'sweb/images/contact-massage.png' %}" alt=""&gt;&lt;/figure&gt;&#13;</para>
+  <para>                                &lt;p&gt;&lt;a href="mailto:info@fitnessgym.com"&gt;info@fitnessgym.com&lt;/a&gt;&lt;/p&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>        &lt;!-- End Cal Info sec --&gt; &#13;</para>
+  <para>&#13;</para>
+  <para>        &lt;!-- Start Contact sec --&gt;&#13;</para>
+  <para>        &lt;div class="contact-outer"&gt;&#13;</para>
+  <para>            &lt;div class="container"&gt;&#13;</para>
+  <para>                &lt;div class="row"&gt;&#13;</para>
+  <para>                    &lt;div class="col-sm-7 col-xs-12"&gt;&#13;</para>
+  <para>                        &lt;div class="form-wrapper"&gt;&#13;</para>
+  <para>                            &lt;h3&gt;Leave Your Message!&lt;/h3&gt;&#13;</para>
+  <para>                            &lt;p&gt;We are always excited to hear from you, so please feel free to contact us and we will gladly reply to any and all queries you may have.&lt;/p&gt;&#13;</para>
+  <para>                            &lt;form action="{% url 'contact' %}" method="post" id="contact_form" name="contact_form"&gt;&#13;</para>
+  <para>                                {% csrf_token %}&#13;</para>
+  <para>                                &lt;div class="row input-row"&gt;&#13;</para>
+  <para>                                    &lt;div class="col-sm-12"&gt;&#13;</para>
+  <para>                                        &lt;input name="name" type="text" placeholder="Name*" required&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/div&gt;&#13;</para>
+  <para>                                &lt;div class="row input-row"&gt;        &#13;</para>
+  <para>                                    &lt;div class="col-sm-12"&gt;&#13;</para>
+  <para>                                        &lt;input name="email" type="text" placeholder="Email*" required&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/div&gt;&lt;div class="row input-row"&gt;&#13;</para>
+  <para>                                    &lt;div class="col-sm-12"&gt;&#13;</para>
+  <para>                                        &lt;input name="phone" type="text" placeholder="Phone*" required&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/div&gt;&#13;</para>
+  <para>                                &lt;div class="row input-row"&gt;&#13;</para>
+  <para>                                    &lt;div class="col-sm-12"&gt;&#13;</para>
+  <para>                                        &lt;textarea name="message" placeholder="Message*"&gt;&lt;/textarea&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;        &#13;</para>
+  <para>                                &lt;/div&gt;&#13;</para>
+  <para>                                &lt;div class="row"&gt;&#13;</para>
+  <para>                                    &lt;div class="col-sm-12"&gt;&#13;</para>
+  <para>                                        &lt;input type="submit" name="submit" class="btn" value="SEND MESSAGE"&gt;&#13;</para>
+  <para>                                    &lt;/div&gt;&#13;</para>
+  <para>                                &lt;/div&gt;&#13;</para>
+  <para>                            &lt;/form&gt;&#13;</para>
+  <para>                            &lt;div class="msg"&gt;&lt;/div&gt;&#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                    &lt;div class="col-sm-5 col-xs-12"&gt;&#13;</para>
+  <para>                        &lt;div class="contact-info clearfix"&gt;&#13;</para>
+  <para>                            &lt;h3&gt;Other ways to Connect&lt;/h3&gt;&#13;</para>
+  <para>&#13;</para>
+  <para>                            &lt;br/&gt;&#13;</para>
+  <para>                            &lt;br/&gt;&#13;</para>
+  <para>                            &lt;br/&gt;&#13;</para>
+  <para>&#13;</para>
+  <para>                            &lt;!-- Start Map sec --&gt;&#13;</para>
+  <para>                            {% if name %}&#13;</para>
+  <para>                            &lt;center&gt;&#13;</para>
+  <para>                                &lt;h2&gt;Thanks {{name}} !&lt;/h2&gt;&#13;</para>
+  <para>                                &lt;p&gt;We received your mail and we will respond shortly&lt;/p&gt;&#13;</para>
+  <para>                                &lt;br/&gt;&#13;</para>
+  <para>                                &lt;br/&gt;&#13;</para>
+  <para>                                &lt;br/&gt;&#13;</para>
+  <para>                                &lt;p&gt;&lt;a class="nav-link" href="home.xml"&gt;Home&lt;/a&gt;&lt;/p&gt;&#13;</para>
+  <para>                            &lt;/center&gt;&#13;</para>
+  <para>&#13;</para>
+  <para>                            &lt;br/&gt;&#13;</para>
+  <para>                            &lt;br/&gt;&#13;</para>
+  <para>                            &lt;br/&gt;&#13;</para>
+  <para>                            {% else %}&#13;</para>
+  <para>                            &lt;div class="map-outer"&gt;&#13;</para>
+  <para>                                &lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28806.20148037886!2d92.71800024042014!3d25.5125432411636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374ff3b70a650cd1%3A0x16ecf4399956cc7c!2sUmrangso%2C%20Assam!5e0!3m2!1sen!2sin!4v1628960156570!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"&gt;&lt;/iframe&gt;&#13;</para>
+  <para>                            &lt;/div&gt;&#13;</para>
+  <para>                            {% endif %}&#13;</para>
+  <para>                            &lt;!-- End Map sec --&gt; &#13;</para>
+  <para>                        &lt;/div&gt;&#13;</para>
+  <para>                    &lt;/div&gt;&#13;</para>
+  <para>                &lt;/div&gt;&#13;</para>
+  <para>            &lt;/div&gt;&#13;</para>
+  <para>        &lt;/div&gt;&#13;</para>
+  <para>&#13;</para>
+  <para>{% endblock %}</para>
+</article>

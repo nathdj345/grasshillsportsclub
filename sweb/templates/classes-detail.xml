@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para><note><remark>HTML: &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;</remark></note><note><remark>Reset CSS</remark></note><note><remark>Bootstrap</remark></note><note><remark>Font Awesome</remark></note><note><remark>Iconmoon</remark></note><note><remark>Lightbox CSS</remark></note><note><remark>Owl Carousel</remark></note><note><remark>Animate</remark></note><note><remark>Aos</remark></note><note><remark>Custom Style</remark></note><note><remark>Start Header</remark></note><note><remark>Start Header Sec</remark></note><inlinegraphic fileref="#images/logo.png" width="0.8071inch" depth="0.4138inch"/><inlinegraphic fileref="#images/logo-fix.png" width="0.8071inch" depth="0.4138inch"/> </para>
+  <sect1 id="navbarNavDropdown">
+    <orderedlist>
+      <listitem>
+        <para><note><remark>Start Navigation</remark></note><olink targetdocent="home.xml">Home</olink> </para>
+      </listitem>
+      <listitem>
+        <para><olink targetdocent="about.xml">About Us</olink> </para>
+      </listitem>
+      <listitem>
+        <para><olink targetdocent="classes.xml">Classes</olink> </para>
+      </listitem>
+      <listitem>
+        <para><olink targetdocent="schedule.xml">Schedule</olink> </para>
+      </listitem>
+      <listitem>
+        <para><olink targetdocent="trainers.xml">Trainers</olink> </para>
+      </listitem>
+      <listitem>
+        <para><olink targetdocent="news.xml">News</olink> </para>
+      </listitem>
+      <listitem>
+        <para><olink targetdocent="contact.xml">Contact Us</olink> </para>
+      </listitem>
+    </orderedlist>
+  </sect1>
+  <para><note><remark>End Navigation</remark></note><note><remark>End Header Sec</remark></note><note><remark>End Header</remark></note><note><remark>Start Banner</remark></note>CLASSES</para>
+  <orderedlist>
+    <listitem>
+      <para><olink targetdocent="home.xml">Home</olink> </para>
+    </listitem>
+    <listitem>
+      <para><olink targetdocent="classes.xml">Classes</olink> </para>
+    </listitem>
+    <listitem>
+      <para>classes Detail </para>
+    </listitem>
+  </orderedlist>
+  <para><note><remark>End Banner</remark></note><note><remark>Start News sec</remark></note><inlinegraphic fileref="#images/classes-detail.png" width="0.7862inch" depth="0.3929inch"/> </para>
+  <sect1>
+    <title>Leg Workout</title>
+    <orderedlist>
+      <listitem>
+        <para>Class Time : 10.00 AM - 11.00 AM </para>
+      </listitem>
+      <listitem>
+        <para>Jhon Doe </para>
+      </listitem>
+    </orderedlist>
+    <para>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et faucibus enim. Integer ultrices nisl in tellus mollis, sed pretium neque facilisis. Suspendisse euismod mollis neque eu feugiat. Pellentesque ut mollis lorem, nec convallis libero. Mauris nec orci feugiat, maximus elit quis, porta risus. Morbi nec dui lacus. Mauris fringilla tortor non ligula condimentum, eu consectetur quam faucibus. Aliquam et ullamcorper tortor, sed malesuada felis. Nam convallis lorem tempus mauris eleifend cursus. Proin sollicitudin elit sit amet nibh egestas gravida molestie in diam. Fusce metus ipsum, efficitur ut lacinia at, suscipit a elit.</para>
+    <para>Maecenas a elit non ex dictum volutpat ac et massa. Nunc mi nisi, imperdiet vitae posuere ac, iaculis a felis. Ut vitae tincidunt sapien, ac imperdiet odio. Proin blandit eros vitae porttitor pretium. Aliquam est orci, blandit in orci vel, sollicitudin pretium ex.</para>
+    <sect2>
+      <title/>
+      <sect3>
+        <title>Why You Choose Body Building?</title>
+        <para>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</para>
+        <orderedlist>
+          <listitem>
+            <para>It’s Help your body balance </para>
+          </listitem>
+          <listitem>
+            <para>Daily Work Freshness </para>
+          </listitem>
+          <listitem>
+            <para>It’s Help your body balance </para>
+          </listitem>
+          <listitem>
+            <para>Daily Work Freshness </para>
+          </listitem>
+        </orderedlist>
+      </sect3>
+    </sect2>
+    <sect2>
+      <title>Categories</title>
+      <orderedlist>
+        <listitem>
+          <para>
+            <link linkend="">Fitness Classes </link>
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            <link linkend="">Body Building </link>
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            <link linkend="">Trainer </link>
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            <link linkend="">Running </link>
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            <link linkend="">Yoga </link>
+          </para>
+        </listitem>
+      </orderedlist>
+    </sect2>
+    <sect2>
+      <title>Popular NEWS</title>
+      <orderedlist>
+        <listitem>
+          <para>
+            <inlinegraphic fileref="#images/pn-thumb1.png" width="0.8071inch" depth="0.4138inch"/>
+          </para>
+          <para>
+            <link linkend="">Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur...</link>
+          </para>
+          <para>
+            <link linkend="">April 1, 2014 </link>
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            <inlinegraphic fileref="#images/pn-thumb2.png" width="0.8071inch" depth="0.4138inch"/>
+          </para>
+          <para>
+            <link linkend="">Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur...</link>
+          </para>
+          <para>
+            <link linkend="">April 1, 2014 </link>
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            <inlinegraphic fileref="#images/pn-thumb3.png" width="0.8071inch" depth="0.4138inch"/>
+          </para>
+          <para>
+            <link linkend="">Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur...</link>
+          </para>
+          <para>
+            <link linkend="">April 1, 2014 </link>
+          </para>
+        </listitem>
+      </orderedlist>
+      <sect3>
+        <title>
+          <link linkend="">Lorem ipsum dolor sit amet</link>
+        </title>
+        <link linkend="">Lorem ipsum dolor sit amet</link>
+        <para>
+          <link linkend="">Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur...</link>
+        </para>
+        <para>
+          <link linkend="">April 1, 2014 </link>
+        </para>
+        <listitem>
+          <para>
+            <inlinegraphic fileref="#images/pn-thumb2.png" width="0.8071inch" depth="0.4138inch"/>
+          </para>
+          <para>
+            <link linkend="">Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur...</link>
+          </para>
+          <para>
+            <link linkend="">April 1, 2014 </link>
+          </para>
+        </listitem>
+      </sect3>
+      <sect3>
+        <title>
+          <link linkend="">Lorem ipsum dolor sit amet</link>
+        </title>
+        <link linkend="">Lorem ipsum dolor sit amet</link>
+        <para>
+          <link linkend="">Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur...</link>
+        </para>
+        <para>
+          <link linkend="">April 1, 2014 </link>
+        </para>
+        <listitem>
+          <para>
+            <inlinegraphic fileref="#images/pn-thumb3.png" width="0.8071inch" depth="0.4138inch"/>
+          </para>
+          <para>
+            <link linkend="">Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur...</link>
+          </para>
+          <para>
+            <link linkend="">April 1, 2014 </link>
+          </para>
+        </listitem>
+      </sect3>
+      <sect3>
+        <title>
+          <link linkend="">Lorem ipsum dolor sit amet</link>
+        </title>
+        <link linkend="">Lorem ipsum dolor sit amet</link>
+        <para>
+          <link linkend="">Aliquam eu malesuada risus. Vivamus sagittis enim tempor eros consectetur...</link>
+        </para>
+        <para>
+          <link linkend="">April 1, 2014 </link>
+        </para>
+        <para><inlinegraphic fileref="#images/news-adds.png" width="0.7862inch" depth="0.3929inch"/> </para>
+      </sect3>
+    </sect2>
+    <sect2>
+      <title><note><remark>End News sec</remark></note><note><remark>Start Feature Classes</remark></note>FEATURED CLASSES</title>
+      <note>
+        <remark>End News sec</remark>
+      </note>
+      <note>
+        <remark>Start Feature Classes</remark>
+      </note>
+      <para><inlinegraphic fileref="#images/feature-thumb1.png" width="0.7862inch" depth="0.3929inch"/> </para>
+      <para>16 DEC 6:30 AM </para>
+      <sect3>
+        <title>
+          <olink targetdocent="classes-detail.xml">Weight Lifting</olink>
+        </title>
+        <olink targetdocent="classes-detail.xml">Weight Lifting</olink>
+        <para><inlinegraphic fileref="#images/feature-thumb2.png" width="0.7862inch" depth="0.3929inch"/> </para>
+        <para>16 DEC 6:30 AM </para>
+      </sect3>
+      <sect3>
+        <title>
+          <olink targetdocent="classes-detail.xml">Daily Yoga</olink>
+        </title>
+        <olink targetdocent="classes-detail.xml">Daily Yoga</olink>
+        <para><inlinegraphic fileref="#images/feature-thumb3.png" width="0.7862inch" depth="0.3929inch"/> </para>
+        <para>16 DEC 6:30 AM </para>
+      </sect3>
+      <sect3>
+        <title>
+          <olink targetdocent="classes-detail.xml">Running Way</olink>
+        </title>
+        <olink targetdocent="classes-detail.xml">Running Way</olink>
+        <para><inlinegraphic fileref="#images/feature-thumb1.png" width="0.7862inch" depth="0.3929inch"/> </para>
+        <para>16 DEC 6:30 AM </para>
+      </sect3>
+      <sect3>
+        <title>
+          <olink targetdocent="classes-detail.xml">Weight Lifting</olink>
+        </title>
+        <olink targetdocent="classes-detail.xml">Weight Lifting</olink>
+        <para><inlinegraphic fileref="#images/feature-thumb2.png" width="0.7862inch" depth="0.3929inch"/> </para>
+        <para>16 DEC 6:30 AM </para>
+      </sect3>
+      <sect3>
+        <title>
+          <olink targetdocent="classes-detail.xml">Daily Yoga</olink>
+        </title>
+        <olink targetdocent="classes-detail.xml">Daily Yoga</olink>
+        <para><inlinegraphic fileref="#images/feature-thumb3.png" width="0.7862inch" depth="0.3929inch"/> </para>
+        <para>16 DEC 6:30 AM </para>
+      </sect3>
+      <sect3>
+        <title>
+          <olink targetdocent="classes-detail.xml">Running Way</olink>
+        </title>
+        <olink targetdocent="classes-detail.xml">Running Way</olink>
+      </sect3>
+    </sect2>
+    <sect2>
+      <title><note><remark>End Feature sec</remark></note><note><remark>Start Footer</remark></note><note><remark>Start Footer top</remark></note>About</title>
+      <note>
+        <remark>End Feature sec</remark>
+      </note>
+      <note>
+        <remark>Start Footer</remark>
+      </note>
+      <note>
+        <remark>Start Footer top</remark>
+      </note>
+      <para>Lorem ipsum dolor sit amet, ei ubique fastidii vim. Elitr feugait complectitur eu pro, sea audire ponderum eleifend cu.</para>
+      <para>23 New Design Street, Melbourne</para>
+      <para><ulink url="mailto:fitnessgym@gmail.com">fitnessgym@gmail.com</ulink> <olink targetdocent="tel:+880-123-456-7890">+880-123-456-7890</olink> </para>
+    </sect2>
+    <sect2>
+      <title>NEWSLETTER</title>
+      <para>sign up for our mailing list to get latest updates and offers</para>
+      <orderedlist>
+        <listitem>
+          <para/>
+        </listitem>
+      </orderedlist>
+    </sect2>
+    <sect2>
+      <title>Flickr Photos</title>
+      <orderedlist>
+        <listitem>
+          <para><inlinegraphic fileref="#images/flic1.png" width="0.8071inch" depth="0.4138inch"/> </para>
+        </listitem>
+        <listitem>
+          <para><inlinegraphic fileref="#images/flic2.png" width="0.8071inch" depth="0.4138inch"/> </para>
+        </listitem>
+        <listitem>
+          <para><inlinegraphic fileref="#images/flic3.png" width="0.8071inch" depth="0.4138inch"/> </para>
+        </listitem>
+        <listitem>
+          <para><inlinegraphic fileref="#images/flic4.png" width="0.8071inch" depth="0.4138inch"/> </para>
+        </listitem>
+        <listitem>
+          <para><inlinegraphic fileref="#images/flic5.png" width="0.8071inch" depth="0.4138inch"/> </para>
+        </listitem>
+        <listitem>
+          <para><inlinegraphic fileref="#images/flic6.png" width="0.8071inch" depth="0.4138inch"/> </para>
+        </listitem>
+      </orderedlist>
+      <para>
+        <note>
+          <remark>End Footer top</remark>
+        </note>
+        <note>
+          <remark>Copy Rights</remark>
+        </note>
+        <ulink url="https://www.templateshub.net/">Templates Hub</ulink>
+      </para>
+      <para>
+        <note>
+          <remark>End Copy Rights</remark>
+        </note>
+        <note>
+          <remark>End Footer</remark>
+        </note>
+        <note>
+          <remark>Scroll to top</remark>
+        </note>
+        <note>
+          <remark>jQuery (necessary for Bootstrap's JavaScript plugins)</remark>
+        </note>
+        <note>
+          <remark>Bootstrap JS</remark>
+        </note>
+        <note>
+          <remark>Lightbox JS</remark>
+        </note>
+        <note>
+          <remark>Owl Carousal JS</remark>
+        </note>
+        <note>
+          <remark>Owl Carousal JS</remark>
+        </note>
+        <note>
+          <remark>Aos JS</remark>
+        </note>
+        <note>
+          <remark>CounterUp JS</remark>
+        </note>
+        <note>
+          <remark>Custom JS</remark>
+        </note>
+      </para>
+    </sect2>
+  </sect1>
+</article>
