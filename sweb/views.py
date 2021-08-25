@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.core.mail import send_mail
 
 def home(request):
-	return render(request,'home.xml',{})
+	return render(request,'home.html',{})
 
 def contact(request):
 	if request.method == 'POST' :
@@ -17,25 +17,25 @@ def contact(request):
 			['djdebo345@gmail.com'],
 			)
 
-		return render(request,'contact.xml',{'name': name})
+		return render(request,'contact.html',{'name': name})
 	else :
-		return render(request,'contact.xml',{})
+		return render(request,'contact.html',{})
 
 def classes(request):
-	return render(request,'classes.xml',{})
+	return render(request,'classes.html',{})
 
 def news(request):
-	return render(request,'news.xml',{})
+	return render(request,'news.html',{})
 
 def newsdetail(request):
-	return render(request,'newsdetail.xml',{})
+	return render(request,'newsdetail.html',{})
 
 def schedule(request):
-	return render(request,'schedule.xml',{})
+	return render(request,'schedule.html',{})
 
 def trainers(request):
-	return render(request,'trainers.xml',{})
+	return render(request,'trainers.html',{})
 
 def about(request):
-	return render(request,'about.xml',{})
+	return render(request,'about.html',{})
 
